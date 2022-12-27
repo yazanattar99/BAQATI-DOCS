@@ -1,0 +1,167 @@
+BAQATI SaaS Requirements
+========================
+:toc:
+:toc-placement: manual
+// :Author: Yazan Al Attar
+:docyear: {sys: date +%Y}
+
+toc::[]
+:numbered:
+
+== Overview 
+This document defines the objectives, requirements, constraints, and use cases of the Baqati SaaS applications. The software primarily serves as an interface between business owners and customers in order to create, manage, and utilize subscription packages. 
+
+== Scope
+=== Out of Scope
+* Ads page in admin dashboard 
+* Gift package functionality across all Baqati software
+
+== Outcomes and Objectives
+=== High Level Outcomes and Objectives
+=== Admin Web Application
+* View data analytics in dashboard
+* View all customer transactions and analytics
+* Create & manage subscription packages with products or combination of products
+* Customize profile in user-app
+* Manage users
+* Contact Baqati representative
+* Manage notifications & payments
+
+=== Super Admin Web Application
+* View data analytics with ability to filter by store
+* View products & packages
+* View customer transactions and analytics
+* Store analytics with granularity of one store
+* Create & manage advertisement campaigns
+* Manage users & notifications
+** Send push notification to user app on demand
+
+[id=userApp]
+=== User App
+* Browse & search for all subscription packages offered by stores
+* Subscribe and/or save package(s)
+** Payment processing & management
+** Subscription management 
+* Redeem item from subscription
+** NFC and barcode
+* Customize profile 
+
+=== Cashier App
+* Browse and search through transaction history 
+* Redeem package by NFC or barcode
+
+== Functional Requirements
+:fra-id: 0
+:frsa-id: 0
+:frua-id: 0
+:frca-id: 0
+
+// TODO: replace "Figma" or "as seen in Figma" with a singular note 
+=== Admin 
+.Admin Webpage Functional Requirements
+|===
+|ID |Description
+
+|FA-{counter:fra-id}
+|DESCRIPTION PLACEHOLDER
+[id=FA_login]
+|FA-{counter:fra-id}
+|Users can log in to the web app using email and password (NOTE^1^)
+
+|FA-{counter:fra-id}
+|Users can create a new account given that they have valid inputs for all required fields as seen in Figma 
+
+|FA-{counter:fra-id}
+|User can navigate different pages using vertical toolbar on the left side as seen in Figma 
+
+|FA-{counter:fra-id}
+|User can view revenue, subscription, and customer analytics in the "Dashboard" page as seen in Figma(NOTE^2^)
+
+|FA-{counter:fra-id}
+|User can view notifications as a pop up from any page in the web app (NOTE^3^)
+
+|FA-{counter:fra-id}
+|User can search for products and packages using search toolbar (NOTE^3^)
+
+|FA-{counter:fra-id}
+|User can view transaction history in "Transactions" page as well as summary of statistics as seen in Figma (NOTE^4^)
+
+|FA-{counter:fra-id}
+|User can view customer information in "Customers" page as well as customer life cycle statistics (NOTE^4^) (NOTE^5^)
+
+|FA-{counter:fra-id}
+|User can view all available packages and statistics in "Packages" page as seen in Figma 
+
+|FA-{counter:fra-id}
+|User can add new package by filling out all required fields as seen in Figma (NOTE^6^) (NOTE^7^)
+
+|FA-{counter:fra-id}
+|User can view all available branches and statistics in the "Branches" page as seen in Figma
+
+|FA-{counter:fra-id}
+|User can add new branch
+
+|FA-{counter:fra-id}
+|User can contact Baqati representative given that they have valid inputs for all required fields as seen in "Contact us" page in Figma 
+
+|FA-{counter:fra-id}
+|User can view "Settings" page as seen in Figma
+
+|FA-{counter:fra-id}
+|User can navigate sub pages in "Settings" page using the toolbar 
+
+|FA-{counter:fra-id}
+|User can edit store information that is to be displayed in the <<userApp>> from the Settings/My+Details page as seen in Figma 
+
+|FA-{counter:fra-id}
+|User can add products or a combination of products from the Settings/Products page as seen in Figma 
+
+|FA-{counter:fra-id}
+|User can manage and view web application users from the Settings/Users page as seen in Figma
+
+|FA-{counter:fra-id}
+|User can manage notifications from the Settings/Notifications page as seen in Figma
+
+|FA-{counter:fra-id}
+|User can manage payments and add a new card from the Settings/Payments page as seen in Figma 
+|===
+
+.Click to reveal the NOTE
+[%collapsible]
+======
+. In addition to "Forgot your password" functionality
+. Revenue analytics can be formatted by month, week, or day (affects chart and mini summary modules)
+. Can be expanded into full page 
+. Data can be exported into csv file. Additionally data can be filtered by package, sorted by column header, and looked up using search toolbar
+. Specific customer information should be displayed when clicking on specific user name or ID (as seen in Figma)
+. User can see the in-app view of the package as it is being created
+. Package can be set as a "Limited time offer" and/or a "Best value package"
+======
+
+
+=== Super Admin 
+.Super Admin Webpage Functional Requirements
+|===
+|ID |Description
+
+|FSA-{counter:frsa-id}
+|DESCRIPTION PLACEHOLDER
+|===
+
+=== User App
+.User App Functional Requirements
+|===
+|ID |Description
+
+|FUA-{counter:frua-id}
+|DESCRIPTION PLACEHOLDER
+|===
+
+=== Cashier App
+.Cashier App Functional Requirements
+|===
+|ID |Description
+
+|FCA-{counter:frca-id}
+|DESCRIPTION PLACEHOLDER
+|===
