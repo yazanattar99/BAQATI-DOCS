@@ -40,16 +40,16 @@ This document defines the objectives, requirements, constraints, and use cases o
 [id=userApp]
 === User App
 * Browse & search for all subscription packages offered by stores
-* Subscribe and/or save package(s)
+* Subscribe and/or favorite package(s)
 ** Payment processing & management
 ** Subscription management 
 * Redeem item from subscription
-** NFC and barcode
+** NFC and QR code 
 * Customize profile 
 
 === Cashier App
 * Browse and search through transaction history 
-* Redeem package by NFC or barcode
+* Redeem package by NFC or QR code 
 
 == Functional Requirements
 :fra-id: 0
@@ -223,7 +223,14 @@ This document defines the objectives, requirements, constraints, and use cases o
 |ID |Description
 
 |FUA-{counter:frua-id}
-|DESCRIPTION PLACEHOLDER
+|
+
+|FUA-{counter:frua-id}
+|Upon opening the application the user will see the splash screen first
+
+|FUA-{counter:frua-id}
+|
+
 |===
 
 === Cashier App
@@ -232,13 +239,16 @@ This document defines the objectives, requirements, constraints, and use cases o
 |ID |Description
 
 |FCA-{counter:frca-id}
+|Upon opening the application the user will see the splash screen first
+
+|FCA-{counter:frca-id}
 |Users can log in to the web app using email and password and/or face ID
 
 |FCA-{counter:frca-id}
 |Users can view and search transaction history in homepage as seen in Figma
 
 |FCA-{counter:frca-id}
-|Users can redeem item using barcode and/or NFC
+|Users can redeem item using QR code and/or NFC
 |===
 
 == Non-Functional Requirements
