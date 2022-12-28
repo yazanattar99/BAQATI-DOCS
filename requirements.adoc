@@ -232,5 +232,11 @@ This document defines the objectives, requirements, constraints, and use cases o
 |ID |Description
 
 |FCA-{counter:frca-id}
-|DESCRIPTION PLACEHOLDER
+|Users can log in to the web app using email and password and/or face ID
+
+|FCA-{counter:frca-id}
+|Users can view and search transaction history in homepage as seen in Figma
+
+|FCA-{counter:frca-id}
+|Users can redeem item using barcode and/or NFC
 |===
