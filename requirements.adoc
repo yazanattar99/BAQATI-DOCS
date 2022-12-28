@@ -229,9 +229,34 @@ This document defines the objectives, requirements, constraints, and use cases o
 |Upon opening the application the user will see the splash screen first
 
 |FUA-{counter:frua-id}
+|User can navigate all available stores from the homepage as seen in Figma (NOTE^1^)
+
+|FUA-{counter:frua-id}
+|User is greeted with welcome message in homepage 
+
+|FUA-{counter:frua-id}
+|User can see his geolocation displayed in homepage
+
+|FUA-{counter:frua-id}
+|User can search for stores and/or packages using the search toolbar
+
+|FUA-{counter:frua-id}
+|User an view notifications using the notifications toolbar (as seen in Figma)
+
+|FUA-{counter:frua-id}
+|User can navigate between "Home", "Baqati", and "Profile" pages using the navigation bar as seen in Figma (NOTE^2^)
+
+|FUA-{counter:frua-id}
 |
 
 |===
+.Click to reveal NOTE
+[%collapsible]
+======
+. Only Cafes for MVP
+. Navigation bar can be seen from the homepage, store page, and subscriptions/baqati page
+
+======
 
 === Cashier App
 .Cashier App Functional Requirements
