@@ -240,3 +240,12 @@ This document defines the objectives, requirements, constraints, and use cases o
 |FCA-{counter:frca-id}
 |Users can redeem item using barcode and/or NFC
 |===
+
+== Non-Functional Requirements
+
+== Design Constraints
+There are no strict design constraint but as per most recent discussions the tech stack is constrained to:
+
+* AWS 
+* MERN Stack
+* React Native for mobile app development
